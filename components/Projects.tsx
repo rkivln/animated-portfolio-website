@@ -69,7 +69,7 @@ const Projects: React.FC = () => {
       description: 'A full-stack STUDENTS APP with modern UI, secure payments, and admin dashboard.',
       image: 'https://res.cloudinary.com/avalon-admission/images/v1648731484/College-Application-graphic-scaled-1/College-Application-graphic-scaled-1.jpg?_i=AA',
       technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      liveUrl: 'https://altusmate.lovable.app/',
+      liveUrl: 'https://altusmate.vercel.app/',
       githubUrl: '#'
     },
     {
