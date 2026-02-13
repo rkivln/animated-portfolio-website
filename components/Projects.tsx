@@ -134,7 +134,7 @@ const Projects: React.FC = () => {
 
         <div className="text-center mt-12">
           <a
-            href="https://altuscorp.vercel.app"
+            href="https://altuscorp.vercel.app/"
             className="inline-block px-8 py-3 bg-gradient-to-r from-purple-600 to-violet-600 text-white font-semibold rounded-full hover:from-purple-700 hover:to-violet-700 transition-all duration-300 transform hover:scale-105 shadow-lg"
           >
             Let's Work Together
