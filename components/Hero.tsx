@@ -117,7 +117,7 @@ const Hero: React.FC = () => {
                 </span>
                 <br />
                 <span className="bg-gradient-to-r from-purple-600 via-pink-600 to-indigo-600 bg-clip-text text-transparent">
-                  
+                  Anbalagan
                 </span>
               </h1>
             </div>
@@ -125,17 +125,19 @@ const Hero: React.FC = () => {
             {/* Title */}
             <div className="animate-slide-in-left" style={{ animationDelay: '0.6s' }}>
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-light text-gray-700 leading-tight">
-                Creative <span className="font-semibold bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">Developer</span>
+                <span className="font-semibold bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">MERN Stack Developer</span>
+                <span className="mx-2 text-gray-300">|</span>
+                <span className="font-semibold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">UI/UX Designer</span>
                 <br />
-                & <span className="font-semibold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">Designer</span>
+                <span className="font-semibold bg-gradient-to-r from-indigo-600 to-blue-600 bg-clip-text text-transparent">Brand Identity</span>
               </h2>
             </div>
 
             {/* Description */}
             <div className="animate-slide-in-left max-w-lg mx-auto lg:mx-0" style={{ animationDelay: '0.8s' }}>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Passionate about creating beautiful, functional digital experiences that make a difference.
-                Specializing in modern web technologies and innovative design solutions.
+                Pursuing B.Tech in Computer Science and Business Systems (2025–2029).
+                Founder of <span className="font-semibold text-purple-600">Artisen Tech Crafts</span>, crafting premium 3D-printed products and software solutions.
               </p>
             </div>
 
@@ -158,19 +160,19 @@ const Hero: React.FC = () => {
 
             {/* Social Links */}
             <div className="animate-slide-in-left flex justify-center lg:justify-start gap-6 pt-8" style={{ animationDelay: '1.2s' }}>
-              <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors duration-300 transform hover:scale-110">
+              <a href="https://linkedin.com/in/a-gokulan" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transition-colors duration-300 transform hover:scale-110">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
                 </svg>
               </a>
-              <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors duration-300 transform hover:scale-110">
-                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 0C5.374 0 0 5.373 0 12s5.374 12 12 12 12-5.373 12-12S18.626 0 12 0zm5.568 8.16c-.113.5-.454.889-.944 1.003-.19.047-.38.07-.572.07-1.262 0-2.21-.75-2.21-2.112 0-.525.118-1.006.353-1.42.236-.416.564-.747.99-.947.427-.2.896-.3 1.375-.3.45 0 .88.086 1.275.258.395.172.74.42 1.035.74.295.32.525.7.69 1.14.166.44.25.92.25 1.44 0 .66-.16 1.24-.48 1.74-.32.5-.75.89-1.28 1.17-.53.28-1.11.42-1.74.42-.34 0-.67-.04-.99-.12-.32-.08-.61-.2-.87-.35-.26-.15-.49-.33-.7-.54-.21-.21-.39-.45-.54-.72-.15-.27-.27-.57-.36-.9-.09-.33-.14-.68-.14-1.05 0-.8.18-1.51.54-2.13.36-.62.85-1.11 1.47-1.47.62-.36 1.32-.54 2.05-.54.39 0 .76.04 1.11.12.35.08.66.19.93.33.27.14.5.31.69.52.19.21.35.45.46.71.11.26.17.54.17.84 0 .32-.05.62-.15.89-.1.27-.24.51-.42.72-.18.21-.4.38-.65.52-.25.14-.53.25-.82.33-.29.08-.6.12-.92.12-.5 0-.97-.08-1.4-.24-.43-.16-.8-.39-1.1-.68-.3-.29-.53-.64-.69-1.04-.16-.4-.24-.84-.24-1.32 0-.66.16-1.22.48-1.68.32-.46.76-.82 1.32-1.08.56-.26 1.2-.39 1.92-.39.36 0 .71.03 1.05.09.34.06.65.16.93.29.28.13.52.3.72.5.2.2.36.44.48.71.12.27.18.56.18.87z"/>
+              <a href="https://github.com/rkivln" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transition-colors duration-300 transform hover:scale-110">
+                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
                 </svg>
               </a>
-              <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors duration-300 transform hover:scale-110">
-                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 0C5.374 0 0 5.373 0 12s5.374 12 12 12 12-5.373 12-12S18.626 0 12 0zm4.265 14.438c0 .875-.156 1.656-.467 2.328-.312.672-.765 1.22-1.36 1.64-.594.42-1.343.63-2.25.63-1.297 0-2.328-.375-3.094-1.125-.766-.75-1.14-1.922-1.125-3.516V9.75c-.016-1.594.36-2.766 1.125-3.516.766-.75 1.797-1.125 3.094-1.125.907 0 1.656.21 2.25.63.594.42 1.047.968 1.36 1.64.312.672.467 1.453.467 2.328v4.688zm-1.5-4.688c0-.688-.11-1.203-.328-1.547-.22-.344-.58-.516-1.078-.516-.5 0-.86.172-1.078.516-.22.344-.33.86-.33 1.547v4.688c0 .687.11 1.202.33 1.546.22.344.58.516 1.078.516.5 0 .86-.172 1.078-.516.22-.344.33-.86.33-1.546V9.75z"/>
+              <a href="mailto:gokulan.rkivln@gmail.com" className="text-gray-400 hover:text-purple-400 transition-colors duration-300 transform hover:scale-110">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
               </a>
             </div>

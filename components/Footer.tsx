@@ -11,11 +11,11 @@ const Footer: React.FC = () => {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="text-2xl font-bold tracking-wider bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent mb-4">
-              Gokulan
+              Gokulan Anbalagan
             </div>
             <p className="text-gray-400 leading-relaxed mb-6 max-w-md">
-              Passionate developer creating beautiful, functional digital experiences.
-              Let's build something amazing together.
+              MERN Stack Developer & UI/UX Designer.
+              Building digital experiences that matter.
             </p>
             <SocialLinks />
           </div>
@@ -65,7 +65,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © {currentYear} GOKULAN. All rights reserved.
+            © {currentYear} Gokulan. All rights reserved.
           </p>
           <div className="flex gap-6 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">

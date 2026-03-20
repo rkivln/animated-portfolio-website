@@ -28,7 +28,7 @@ const Contact: React.FC = () => {
   const socialLinks = [
     { icon: LinkedInIcon, label: 'LinkedIn', href:"https://www.linkedin.com/in/a-gokulan" },
     { icon: DribbbleIcon, label: 'Dribbble', href: '#' },
-    { icon: GlobeIcon, label: 'Website', href: 'https://altusmate.lovable.app/' },
+    { icon: GlobeIcon, label: 'Website', href: 'https://altusmate.vercel.app/' },
     { icon: HeartIcon, label: 'Support', href: '#' },
   ];
 
@@ -69,7 +69,7 @@ const Contact: React.FC = () => {
                     </svg>
                   </div>
                   <div>
-                    <p className="font-medium text-gray-900">Phone</p>
+                    <p className="font-medium text-gray-900">Contact</p>
                     <p className="text-gray-600">+91-7305184113</p>
                   </div>
                 </div>
@@ -83,7 +83,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="font-medium text-gray-900">Location</p>
-                    <p className="text-gray-600">San Francisco, CA</p>
+                    <p className="text-gray-600">Villianur, Puducherry, India</p>
                   </div>
                 </div>
               </div>

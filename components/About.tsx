@@ -12,32 +12,35 @@ const About: React.FC = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold text-gray-900">Passionate Developer & Creative Designer</h3>
+            <h3 className="text-2xl font-semibold text-gray-900">Dedicated Full-Stack Developer & Aspiring UI/UX Designer</h3>
             <p className="text-gray-600 leading-relaxed">
-              I'm GOKULAN, a full-stack developer with a passion for creating beautiful, functional, and user-centered digital experiences.
-              With expertise in modern web technologies, I bring ideas to life through clean code and innovative design solutions.
+              I'm Gokulan, a full-stack developer currently pursuing a B.Tech in Computer Science and Business Systems.
+              My focus is on building end-to-end web applications with the MERN stack while crafting brand identities
+              that reflect values and drive results.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              My journey in tech started with curiosity and has evolved into a career dedicated to solving complex problems
-              and creating meaningful connections between users and technology.
+              Founder of <span className="font-semibold text-purple-600">Artisen Tech Crafts</span>, a startup delivering premium 3D-printed products,
+              custom tech gadgets, and software solutions.
             </p>
+
+            <div className="pt-6 space-y-4">
+              <h4 className="text-xl font-bold text-gray-900 border-l-4 border-purple-600 pl-4">EDUCATION</h4>
+              <div className="pl-5 border-l-2 border-gray-100 pb-1">
+                <p className="font-semibold text-gray-900 text-lg">Bachelor of Technology</p>
+                <p className="text-purple-600 font-medium">Computer Science Engineering & Business Systems</p>
+                <p className="text-gray-500 font-medium">Sri Manakula Vinayagar Engineering College, Puducherry</p>
+                <p className="text-gray-400 text-sm mt-1">2025 – 2029</p>
+              </div>
+            </div>
 
             <div className="grid grid-cols-2 gap-6 pt-6">
               <div>
+                <h4 className="font-semibold text-gray-900 mb-2">Startup Foundation</h4>
+                <p className="text-gray-600">Artisen Tech Crafts</p>
+              </div>
+              <div>
                 <h4 className="font-semibold text-gray-900 mb-2">Experience</h4>
-                <p className="text-gray-600">3+ Years</p>
-              </div>
-              <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Projects</h4>
-                <p className="text-gray-600">50+ Completed</p>
-              </div>
-              <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Technologies</h4>
-                <p className="text-gray-600">15+ Languages</p>
-              </div>
-              <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Clients</h4>
-                <p className="text-gray-600">25+ Happy</p>
+                <p className="text-gray-600">2024 - Present</p>
               </div>
             </div>
           </div>

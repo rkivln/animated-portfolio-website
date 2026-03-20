@@ -65,53 +65,46 @@ const ProjectCard: React.FC<{
 const Projects: React.FC = () => {
   const projects = [
     {
-      title: 'ALTUS',
-      description: 'A full-stack STUDENTS APP with modern UI, secure payments, and admin dashboard.',
-      image: 'https://res.cloudinary.com/avalon-admission/images/v1648731484/College-Application-graphic-scaled-1/College-Application-graphic-scaled-1.jpg?_i=AA',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+      title: 'Altus — Campus Student Hub',
+      description: 'Full-stack platform designed to streamline campus student life — aggregating schedules, resources, and collaboration tools into a single unified hub.',
+      image: 'https://www.shutterstock.com/image-vector/college-application-vector-illustration-word-600nw-1899070219.jpg',
+      technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS'],
       liveUrl: 'https://altusmate.vercel.app/',
       githubUrl: '#'
     },
     {
-      title: 'Task Management App',
-      description: 'Collaborative project management tool with real-time updates and team features.',
-      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop',
-      technologies: ['Next.js', 'TypeScript', 'Prisma', 'Socket.io'],
-      liveUrl: '#',
+      title: 'Attendifier — Smart Attendance System',
+      description: 'A smart attendance app for college students that simplifies daily attendance tracking and reporting, improving administrative efficiency.',
+      image: 'https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/7ec2f6945564d7de9142e65626c91e0b171954ff/e15062303cc672070a1ce98387bfe54ca6fc0565',
+      technologies: ['React.js', 'Node.js', 'MongoDB', 'Express.js', 'UI/UX'],
+      liveUrl: 'https://attendifierconnect.vercel.app/',
       githubUrl: '#'
     },
     {
-      title: 'Weather Dashboard',
-      description: 'Beautiful weather app with location-based forecasts and interactive maps.',
-      image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&h=300&fit=crop',
-      technologies: ['React', 'OpenWeather API', 'Chart.js', 'Tailwind CSS'],
-      liveUrl: '#',
+      title: 'PlateShare — Food Waste Marketplace',
+      description: 'Hackathon project: a real-time leftover food marketplace connecting donors (restaurants, canteens, hostels) with NGOs and individuals to reduce food waste.',
+      image: 'https://tse3.mm.bing.net/th/id/OIP.TeiXPYHnXCYrrV34r0vF_AHaDS?rs=1&pid=ImgDetMain&o=7&rm=3',
+      technologies: ['React', 'Interactive Prototype', 'Mobile UI', 'Expo (Planned)'],
+      liveUrl: 'https://plate-mocha.vercel.app/',
       githubUrl: '#'
     },
     {
-      title: 'Portfolio Website',
-      description: 'Modern, responsive portfolio website with smooth animations and dark mode.',
-      image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop',
-      technologies: ['React', 'Framer Motion', 'Tailwind CSS', 'Vite'],
-      liveUrl: '#',
+      title: 'Volt Media — Digital Marketing & Strategy',
+      description: 'A data-driven digital marketing agency site showcasing SEO, paid media, and marketing automation solutions with performance metrics.',
+      image: '/volt_media.png',
+      technologies: ['React.js', 'Tailwind CSS', 'Marketing Automation', 'Analytics'],
+      liveUrl: 'https://voltmedia.vercel.app',
       githubUrl: '#'
     },
     {
-      title: 'Social Media Dashboard',
-      description: 'Analytics dashboard for social media management with data visualization.',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop',
-      technologies: ['Vue.js', 'D3.js', 'Express', 'PostgreSQL'],
-      liveUrl: '#',
-      githubUrl: '#'
-    },
-    {
-      title: 'Mobile Fitness App',
-      description: 'Cross-platform fitness tracking app with workout plans and progress monitoring.',
-      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=300&fit=crop',
-      technologies: ['React Native', 'Firebase', 'Redux', 'HealthKit'],
-      liveUrl: '#',
+      title: 'RKIVLN — Luxury Branding & Digital Agency',
+      description: 'A premium agency portfolio site focusing on luxury brand strategy, experience design, and high-end visual content.',
+      image: '/rkivln.png',
+      technologies: ['React.js', 'Framer Motion', 'UX/UI', 'Brand Identity'],
+      liveUrl: 'https://rkivln.vercel.app',
       githubUrl: '#'
     }
+    
   ];
 
   return (

@@ -45,7 +45,7 @@ const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="text-2xl font-bold tracking-wider bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent">
-            Gokulan
+            Gokulan Anbalagan
           </div>
 
           {/* Desktop Nav */}

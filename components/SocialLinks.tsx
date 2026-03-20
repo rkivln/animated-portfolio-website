@@ -3,10 +3,10 @@ import React from 'react';
 import { LinkedInIcon, DribbbleIcon, GlobeIcon, HeartIcon } from './Icons';
 
 const socialLinks = [
-  { href: '#', icon: LinkedInIcon, label: 'LinkedIn', color: 'hover:text-blue-600' },
-  { href: '#', icon: DribbbleIcon, label: 'Dribbble', color: 'hover:text-pink-600' },
-  { href: '#', icon: GlobeIcon, label: 'Website', color: 'hover:text-green-600' },
-  { href: '#', icon: HeartIcon, label: 'Support', color: 'hover:text-red-600' },
+  { href: 'https://linkedin.com/in/a-gokulan', icon: LinkedInIcon, label: 'LinkedIn', color: 'hover:text-blue-600' },
+  { href: 'https://altusmate.vercel.app', icon: GlobeIcon, label: 'Altus Project', color: 'hover:text-green-600' },
+  { href: 'https://attendifierconnect.vercel.app', icon: GlobeIcon, label: 'Attendifier', color: 'hover:text-purple-600' },
+  { href: 'https://github.com/rkivln', icon: GlobeIcon, label: 'GitHub', color: 'hover:text-black' },
 ];
 
 const SocialLinks: React.FC = () => {
