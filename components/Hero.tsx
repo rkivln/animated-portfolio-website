@@ -137,7 +137,7 @@ const Hero: React.FC = () => {
             <div className="animate-slide-in-left max-w-lg mx-auto lg:mx-0" style={{ animationDelay: '0.8s' }}>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Pursuing B.Tech in Computer Science and Business Systems (2025–2029).
-                Founder of <span className="font-semibold text-purple-600">Artisen Tech Crafts</span>, crafting premium 3D-printed products and software solutions.
+                Founder of <span className="font-semibold text-purple-600">Volt media</span>, volting premium Websites and web solutions.
               </p>
             </div>
 
