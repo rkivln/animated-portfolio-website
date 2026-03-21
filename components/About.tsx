@@ -36,7 +36,7 @@ const About: React.FC = () => {
             <div className="grid grid-cols-2 gap-6 pt-6">
               <div>
                 <h4 className="font-semibold text-gray-900 mb-2">Startup Foundation</h4>
-                <p className="text-gray-600">Artisen Tech Crafts</p>
+                <p className="text-gray-600">Volt media - Altus</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900 mb-2">Experience</h4>
