@@ -19,8 +19,7 @@ const About: React.FC = () => {
               that reflect values and drive results.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              Founder of <span className="font-semibold text-purple-600">Artisen Tech Crafts</span>, a startup delivering premium 3D-printed products,
-              custom tech gadgets, and software solutions.
+              Founder of <span className="font-semibold text-purple-600">Voltmedia - Altus</span>, a startup delivering premium web designs and web solutions.
             </p>
 
             <div className="pt-6 space-y-4">
